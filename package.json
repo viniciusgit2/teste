@@ -1,6 +1,6 @@
 {
   "name": "my-webpack-project",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -15,7 +15,7 @@
     "buildmusic1": "./node_modules/.bin/webpack --output-filename  music.umd.js --mode=production ",
     "buildmusic2": "./node_modules/.bin/webpack --output-filename  music.umd.min.js --mode=production ",
     "buildall": " yarn build2  &&  yarn buildmusic1 && yarn buildmusic2",
-    "webservedev": "./node_modules/.bin/webpack server --mode=development ",
+    "webservedev": "./node_modules/.bin/webpack server --mode=development",
     "clear": "rimraf lib && rimraf node_modules"
   },
   "dependencies": {
